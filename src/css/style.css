@@ -86,3 +86,294 @@ body{
     width:100%;
 
 }
+/* ==========================================
+   FAVORITE MENU
+========================================== */
+
+.favorite-menu{
+
+    padding:100px 0;
+
+    background:#ffffff;
+
+}
+
+.menu-badge{
+
+    display:inline-block;
+
+    padding:10px 22px;
+
+    background:#FCE6C5;
+
+    color:#6F4E37;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+    font-size:15px;
+
+}
+
+.section-title{
+
+    font-size:48px;
+
+    font-weight:700;
+
+    color:#2B2B2B;
+
+    margin-bottom:10px;
+
+}
+
+.section-subtitle{
+
+    color:#777;
+
+    font-size:18px;
+
+    margin-bottom:20px;
+
+}
+
+/* ================= CARD ================= */
+
+.favorite-card{
+
+    background:#ffffff;
+
+    border-radius:22px;
+
+    padding:22px;
+
+    display:flex;
+
+    align-items:center;
+
+    position:relative;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    height:170px;
+
+}
+
+.favorite-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 40px rgba(0,0,0,.15);
+
+}
+
+/* ================= FOTO ================= */
+
+.favorite-image{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    flex-shrink:0;
+
+    border:5px solid #FFF5E8;
+
+}
+
+/* ================= KONTEN ================= */
+
+.favorite-content{
+
+    padding-left:22px;
+
+    flex:1;
+
+}
+
+.favorite-content h4{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#2B2B2B;
+
+    margin-top:10px;
+
+    margin-bottom:10px;
+
+}
+
+.favorite-content p{
+
+    color:#777;
+
+    font-size:15px;
+
+    margin-bottom:12px;
+
+    line-height:1.5;
+
+}
+
+.favorite-content h5{
+
+    color:#6F4E37;
+
+    font-weight:700;
+
+    font-size:28px;
+
+}
+
+/* ================= BADGE ================= */
+
+.best-seller{
+
+    display:inline-block;
+
+    background:#FFD46A;
+
+    color:#4B2E18;
+
+    padding:6px 14px;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+    font-weight:700;
+
+}
+
+/* ================= CART ================= */
+
+.cart-btn{
+
+    width:65px;
+
+    height:65px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#6F4E37;
+
+    color:white;
+
+    font-size:24px;
+
+    transition:.3s;
+
+    flex-shrink:0;
+
+}
+
+.cart-btn:hover{
+
+    background:#8B5E3C;
+
+    transform:scale(1.12);
+
+}
+
+/* ================= BUTTON ================= */
+
+.favorite-menu .btn-coffee{
+
+    padding:14px 35px;
+
+    border-radius:50px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:992px){
+
+.favorite-card{
+
+    height:auto;
+
+    padding:20px;
+
+}
+
+.favorite-content h4{
+
+    font-size:22px;
+
+}
+
+.favorite-content h5{
+
+    font-size:24px;
+
+}
+
+.favorite-image{
+
+    width:100px;
+
+    height:100px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.favorite-card{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.favorite-content{
+
+    padding-left:0;
+
+    padding-top:18px;
+
+}
+
+.cart-btn{
+
+    margin-top:20px;
+
+}
+
+.favorite-image{
+
+    width:120px;
+
+    height:120px;
+
+}
+
+.section-title{
+
+    font-size:36px;
+
+}
+
+}
