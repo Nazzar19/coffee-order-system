@@ -1,0 +1,19 @@
+.hero{
+
+    padding:120px 0;
+
+}
+
+.hero h1{
+
+    color:var(--coffee);
+
+}
+
+.hero p{
+
+    color:#666;
+
+    margin:20px 0;
+
+}

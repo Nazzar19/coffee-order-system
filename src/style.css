@@ -1,0 +1,41 @@
+:root {
+
+    --coffee: #6F4E37;
+    --cream: #FFF8F0;
+    --gold: #C89B3C;
+
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+    background: var(--cream);
+
+}
+
+.navbar {
+
+    background: var(--coffee);
+
+}
+
+.hero {
+
+    padding: 80px 0;
+
+}
+
+.btn-coffee {
+
+    background: var(--coffee);
+    color: white;
+    border: none;
+
+}
+
+.btn-coffee:hover {
+
+    background: #5A3F2D;
+    color: white;
+
+}
