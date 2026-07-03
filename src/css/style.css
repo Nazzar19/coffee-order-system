@@ -1,23 +1,59 @@
 :root{
 
     --coffee:#6F4E37;
-    --coffee-light:#D9B382;
     --cream:#FFF8F0;
     --gold:#C89B3C;
+    --dark:#2B2B2B;
+
+}
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 
 }
 
 body{
 
-    background:var(--cream);
-
     font-family:'Poppins',sans-serif;
+    background:var(--cream);
+    color:var(--dark);
 
 }
 
 .navbar{
 
-    background:var(--coffee);
+    background:rgba(111,78,55,.95);
+
+    backdrop-filter:blur(10px);
+
+}
+
+.navbar-brand{
+
+    font-size:1.3rem;
+
+}
+
+.nav-link{
+
+    color:white!important;
+
+    margin-left:15px;
+
+}
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    padding-top:90px;
 
 }
 
@@ -29,12 +65,24 @@ body{
 
     border:none;
 
+    transition:.3s;
+
 }
 
 .btn-coffee:hover{
 
-    background:#5a3f2d;
+    background:#5B3D2A;
 
     color:white;
+
+    transform:translateY(-3px);
+
+}
+
+.hero-image{
+
+    max-width:500px;
+
+    width:100%;
 
 }
