@@ -331,3 +331,16 @@ body {
     font-size:.95rem;
 
 }
+.hero-tagline{
+
+    color:#C89B3C;
+
+    font-weight:600;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    margin-bottom:25px;
+
+}
