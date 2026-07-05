@@ -6,7 +6,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import './css/style.css';
-
+import './js/order.js';
+import './js/app.js';   // <-- WAJIB ADA
 
 AOS.init({
     duration: 1000,
